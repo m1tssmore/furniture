@@ -337,6 +337,17 @@ input::placeholder {
     margin-top: 29.53px;
     text-align: center;
     font-family: Rubik, sans-serif;
+    transition: 0.4s ease;
+}
+
+.ad:hover{
+    transform: scale(1.04);
+}
+.ad img{
+    transition: 0.3s ease;
+}
+.ad:hover img{
+    transform: scale(0.9);
 }
 .ad h5{
     margin: 0;
